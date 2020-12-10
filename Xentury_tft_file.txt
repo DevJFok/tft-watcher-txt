@@ -1,0 +1,41 @@
+Summoner Name: Xentury
+Rank: PLATINUM IV 0LP
+
+Last Match:
+Placement: 5
+Last round: 33
+Average time eliminated: 31.54 minutes (1892.26 seconds)
+Level at elimination: 8
+
+Top 3 traits used (by unit count): Sharpshooter : 6, Keeper : 3, Dusk : 2
+Total traits used (by unit count): {"Sharpshooter": 6, "Keeper": 3, "Dusk": 2, "Warlord": 2, "Cultist": 1, "Fortune": 1, "Set4_Ninja": 1, "Set4_Spirit": 1}
+Top 3 traits used (by occurance): Cultist : 1, Dusk : 1, Fortune : 1
+Total traits used (by occurance): {"Cultist": 1, "Dusk": 1, "Fortune": 1, "Keeper": 1, "Set4_Ninja": 1, "Set4_Spirit": 1, "Sharpshooter": 1, "Warlord": 1}
+
+Total full items used : {"Giant's Belt": 1, "Tear of the Goddess": 1, "Guinsoo's Rageblade": 1, "Last Whisper": 1, "Guardian Angel": 1, "Infinity Edge": 1, "Sunfire Cape": 1, "Ionic Spark": 1, "Quicksilver": 1}
+Total composition items used : {"Sparring Gloves": 3, "B.F. Sword": 2, "Recurve Bow": 2, "Needlessly Large Rod": 2, "Chain Vest": 2, "Negatron Cloak": 2, "Giant's Belt": 1, "Tear of the Goddess": 0, "Spatula": 0}
+Total spatula full items used : {"Sword of the Divine": 0, "Duelist's Zeal": 0, "Aspect of Dusk": 0, "Mage's Hat": 0, "Vanguard's Cuirass": 0, "Elderwood Sprout": 0, "Warlord's Banner": 0, "Force of Nature": 0, "Youmuu's Ghostblade": 0}
+
+
+Last 5 Matches: 
+Placement: 4.4
+Last round: 33.6
+Average time eliminated: 31.05 minutes (1862.79 seconds)
+Level at elimination: 8.4
+
+Traits used per game (by occurance): {"Cultist": 1.0, "Dusk": 1.0, "Fortune": 0.8, "Keeper": 0.8, "Set4_Spirit": 0.8, "Sharpshooter": 0.6, "Warlord": 0.6, "Set4_Mage": 0.6, "Set4_Ninja": 0.4, "Set4_Elderwood": 0.4, "Set4_Enlightened": 0.4, "Emperor": 0.4, "Set4_Mystic": 0.2, "Set4_Vanguard": 0.2, "Boss": 0.2, "Set4_Brawler": 0.2}
+Full items used per game: {"Spear of Shojin": 0.8, "Guardian Angel": 0.6, "Infinity Edge": 0.6, "Sunfire Cape": 0.6, "Ionic Spark": 0.6, "Quicksilver": 0.6, "Gargoyle Stoneplate": 0.6, "Jeweled Gauntlet": 0.6, "Giant's Belt": 0.4, "Tear of the Goddess": 0.4, "Guinsoo's Rageblade": 0.4, "Last Whisper": 0.2, "Frozen Heart": 0.2, "Chain Vest": 0.2, "Needlessly Large Rod": 0.2, "Titan's Resolve": 0.2, "Warlord's Banner": 0.2, "Zephyr": 0.2, "Chalice of Power": 0.2, "Sparring Gloves": 0.2, "Mage's Hat": 0.2, "Rapid Firecannon": 0.2}
+Composition items used per game: {"Chain Vest": 4.0, "Sparring Gloves": 3.6, "Negatron Cloak": 3.2, "Recurve Bow": 3.0, "B.F. Sword": 2.6, "Needlessly Large Rod": 2.6, "Tear of the Goddess": 1.8, "Giant's Belt": 1.8, "Spatula": 0.6}
+
+Top 3 traits used (by unit count): Set4_Mage : 18, Sharpshooter : 14, Dusk : 13
+Total traits used (by unit count): {"Set4_Mage": 18, "Sharpshooter": 14, "Dusk": 13, "Keeper": 10, "Cultist": 7, "Warlord": 7, "Fortune": 4, "Set4_Spirit": 4, "Set4_Elderwood": 4, "Set4_Ninja": 2, "Set4_Mystic": 2, "Set4_Vanguard": 2, "Set4_Enlightened": 2, "Emperor": 2, "Boss": 1, "Set4_Brawler": 1}
+
+Top 3 traits used (by occurance): Cultist : 5, Dusk : 5, Fortune : 4
+Bottom traits used (by occurance): Divine : 0, Duelist : 0, Hunter : 0, Moonlight : 0, Set4_Adept : 0, Set4_Assassin : 0, Set4_Dazzler : 0, Set4_Exile : 0, Set4_Ninja : 0, Set4_Shade : 0, Set4_Tormented : 1, Set4_Vanguard : 2, 
+Total traits used (by occurance): {"Cultist": 5, "Dusk": 5, "Fortune": 4, "Keeper": 4, "Set4_Spirit": 4, "Sharpshooter": 3, "Warlord": 3, "Set4_Mage": 3, "Set4_Ninja": 2, "Set4_Elderwood": 2, "Set4_Enlightened": 2, "Emperor": 2, "Set4_Mystic": 1, "Set4_Vanguard": 1, "Boss": 1, "Set4_Brawler": 1}
+
+Total full items used : {"Spear of Shojin": 4, "Guardian Angel": 3, "Infinity Edge": 3, "Sunfire Cape": 3, "Ionic Spark": 3, "Quicksilver": 3, "Gargoyle Stoneplate": 3, "Jeweled Gauntlet": 3, "Giant's Belt": 2, "Tear of the Goddess": 2, "Guinsoo's Rageblade": 2, "Last Whisper": 1, "Frozen Heart": 1, "Chain Vest": 1, "Needlessly Large Rod": 1, "Titan's Resolve": 1, "Warlord's Banner": 1, "Zephyr": 1, "Chalice of Power": 1, "Sparring Gloves": 1, "Mage's Hat": 1, "Rapid Firecannon": 1}
+Total composition items used : {"Chain Vest": 20, "Sparring Gloves": 18, "Negatron Cloak": 16, "Recurve Bow": 15, "B.F. Sword": 13, "Needlessly Large Rod": 13, "Tear of the Goddess": 9, "Giant's Belt": 9, "Spatula": 3}
+Total spatula full items used : {"Mage's Hat": 1, "Warlord's Banner": 1, "Sword of the Divine": 0, "Duelist's Zeal": 0, "Aspect of Dusk": 0, "Vanguard's Cuirass": 0, "Elderwood Sprout": 0, "Force of Nature": 0, "Youmuu's Ghostblade": 0}
+
+
