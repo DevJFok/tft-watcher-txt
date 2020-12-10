@@ -13,7 +13,7 @@ from findBottomThree import *
 # from apiFunction import (findCompositionItems, findTopThree, findIdToName_item, orderingDict)
 
 # golbal variables
-api_key = 'RGAPI-a9692ebb-62c5-49cc-ae4a-4732d2ee7df9'
+api_key = 'enter-your-api-key'
 my_lol_region = 'na1'
 my_tft_region = 'americas'
 my_match_history_count = 10
