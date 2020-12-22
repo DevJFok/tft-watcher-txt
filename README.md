@@ -1,4 +1,4 @@
-# tft-watcher-txt
+# TFT Watcher TXT
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -25,9 +25,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[!][Input Screenshot][input-screenshot]
+[![Input Screenshot][input-screenshot]]
 
 TFT Watcher is an app designed to help TFT players prepare for tournaments by breaking down opponents' match history, item tendency, composition tendency, and average position.
+
+This project is phase 1 of TFT Watcher, TFT Watcher TXT. In this project, the output and results found will be written onto a txt file. Stay tuned for future development for phase 2 and phase 3. 
 
 ### Built With
 
