@@ -25,16 +25,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+[!][Input Screenshot][input-screenshot]
+
 TFT Watcher is an app designed to help TFT players prepare for tournaments by breaking down opponents' match history, item tendency, composition tendency, and average position.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
 
@@ -49,15 +42,12 @@ This project is built with:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Before you use this project, please follow the prerequisites and complete. 
 
 <!-- USAGE EXAMPLES -->
-## Prerequisites
+### Prerequisites
 
 Things you need to use the project and how to install them.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 1. Get your API Key at [https://developer.riotgames.com/](https://developer.riotgames.com/)
 2. Clone the repo
@@ -80,6 +70,4 @@ LinkedIn - [/jarrett-fok](https://www.linkedin.com/in/jarrett-fok/) - jarrettfok
 
 Project Link: [https://github.com/DevJFok/tft-watcher-txt](https://github.com/DevJFok/tft-watcher-txt)
 
-
-
-
+[input-screenshot]: images/input_screenshot.png
