@@ -63,7 +63,7 @@ Things you need to use the project and how to install them.
    api_key = 'enter-your-api-key'
    ```
 
-## Usage
+### Usage
 
 The program accepts 3 inputs:
 
@@ -72,7 +72,7 @@ The program accepts 3 inputs:
    Enter Summoner Name: Xentury
    ```
 2. Enter a valid League of Legends Region:
-   Valid Regions include: na1, euw1, eun1, kr, jp1
+   (Valid Regions include: na1, euw1, eun1, kr, jp1)
    ```sh
    Please enter your server: na1
    ```
@@ -85,7 +85,7 @@ The input should look like this:
 
 [![Input Screenshot][input-screenshot]](https://example.com)
 
-## Result
+### Result
 
 The results will be presented on a txt file in the format of 'SummonerName_Region_txt_file.txt'. An example of a result file is included, check out [example-output](Xentury_na1_tft_file.txt)
 
