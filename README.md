@@ -15,6 +15,7 @@
       <ul>
         <li><a href="#Prerequisites">Prerequisites</a></li>
         <li><a href="#Usage">Usage</a></li>
+        <li><a href="#Result">Result</a></li>
       </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
@@ -86,7 +87,7 @@ The input should look like this:
 
 ## Result
 
-The results will be presented on a txt file in the format of 'SummonerName_Region_txt_file.txt'. An example of a result file is included, check out [example-output](this)
+The results will be presented on a txt file in the format of 'SummonerName_Region_txt_file.txt'. An example of a result file is included, check out [example-output](Xentury_na1_tft_file.txt)
 
 ## Contact
 
@@ -95,4 +96,3 @@ LinkedIn - [/jarrett-fok](https://www.linkedin.com/in/jarrett-fok/) - jarrettfok
 Project Link: [https://github.com/DevJFok/tft-watcher-txt](https://github.com/DevJFok/tft-watcher-txt)
 
 [input-screenshot]: images/input_screenshot.png
-[example-output]: Xentury_na1_tft_file.txt
