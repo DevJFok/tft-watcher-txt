@@ -69,5 +69,9 @@ def findTopThreeFunction(mainfile, occuranceArray, nameArray):
 
                 occuranceArray[2] = mainfile[x]
                 nameArray[2] = x
+            
+            elif mainfile[x] == occuranceArray[2] and x !=  nameArray[2]:
+                occuranceArray.append(mainfile[x])
+                nameArray.append(x)
 
     return occuranceArray, nameArray

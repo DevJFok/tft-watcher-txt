@@ -1,7 +1,7 @@
 from riotwatcher import LolWatcher, ApiError
 
 # golbal variables
-api_key = 'RGAPI-fcf0f704-1562-4997-8c85-d53e83a0c479'
+api_key = 'RGAPI-f10ecff0-28c0-4855-95f3-2a724f9b7305'
 my_lol_region = 'na1'
 my_match_history_count = 10
 
