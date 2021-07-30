@@ -2,13 +2,12 @@ from riotwatcher import TftWatcher, ApiError
 from collections import OrderedDict
 import pandas as pd
 import json
-from findCompositionItems import *
-from findTopThree import *
-from findIdToName_item import *
-from orderingDictDescending import *
-from orderingDictAscending import *
-from orderingListAscending import *
-from findBottomThree import *
+from find_composition_items import *
+from find_top_three import *
+from find_id_to_name_item import *
+from ordering_dict_descending import *
+from ordering_list_ascending import *
+from find_bottom_three import *
 
 # from apiFunction import (findCompositionItems, findTopThree, findIdToName_item, orderingDict)
 
@@ -19,7 +18,7 @@ my_tft_region = ''
 my_match_history_count = 10
 
 # Assume valid Summoner Name
-user_input_summonerName = input("Enter Summoner Name: ")
+user_input_summonername = input("Enter Summoner Name: ")
 # Assume valid server
 user_input_server = input("Please enter your server: ")
 user_input_server = user_input_server.lower()
@@ -36,11 +35,11 @@ elif user_input_server == 'kr' or user_input_server == 'jp1':
 user_input_match_history_count = int(input("Enter Match History count: "))
 my_match_history_count = user_input_match_history_count
 # Output file
-user_input_summonerName_server_filename = user_input_summonerName + '_' + user_input_server + '_tft_file.txt'
+user_input_summonername_server_filename = user_input_summonername + '_' + user_input_server + '_tft_file.txt'
 
 #TFT global variables
 tft_watcher = TftWatcher(api_key)
-my_tft = tft_watcher.summoner.by_name(my_tft_server, user_input_summonerName)
+my_tft = tft_watcher.summoner.by_name(my_tft_server, user_input_summonername)
 my_tft_rank = tft_watcher.league.by_summoner(my_tft_server, my_tft['id'])
 my_tft_matches = tft_watcher.match.by_puuid(my_tft_region, my_tft["puuid"], my_match_history_count)
 
@@ -268,7 +267,7 @@ my_tft_total_trait_occurance_dict = {}
 my_tft_total_item_occurance_dict = {}
 
 # Report
-with open(user_input_summonerName_server_filename, 'w') as tft_file:
+with open(user_input_summonername_server_filename, 'w') as tft_file:
     tft_file.write("Summoner Name: " + my_tft_name + "\n")
     tft_file.write("Rank: " + my_tft_rank + "\n\n\n\n")
 
@@ -373,7 +372,7 @@ for y in range(0,my_match_history_count):
                 top_trait_occurance, top_trait_name = findTopThreeFunction(my_tft_total_trait_occurance_dict_ordered, top_trait_occurance, top_trait_name)
                 top_trait_occurance_number_unit, top_trait_name_number_unit = findTopThreeFunction(my_tft_total_trait_unit_number_dict_ordered, top_trait_occurance_number_unit, top_trait_name_number_unit)
 
-                with open(user_input_summonerName_server_filename, 'a') as tft_file:
+                with open(user_input_summonername_server_filename, 'a') as tft_file:
 
                     tft_file.write("Last Match:\n")
                     tft_file.write("\tPlacement: " + str(my_tft_average_placement) + "\n")
@@ -464,7 +463,7 @@ for w in tft_base_item_name_dict_ordered:
 for u in tft_spatula_full_item_name_dict_ordered:
     tft_spatula_item_name_per_match_dict_ordered.update({u: round((tft_spatula_full_item_name_dict_ordered[u]/my_match_history_count),2)})
 
-with open(user_input_summonerName_server_filename, 'a') as tft_file:
+with open(user_input_summonername_server_filename, 'a') as tft_file:
     tft_file.write("Last " + str(my_match_history_count) +" Matches: \n")
     tft_file.write("\tPlacement: " + str(round(my_tft_average_placement,2)) + "\n")
     tft_file.write("\tLast round: " + str(round(my_tft_average_last_round,2)) + "\n")
@@ -501,7 +500,7 @@ with open(user_input_summonerName_server_filename, 'a') as tft_file:
         tft_file.write("\tList of total spatula full items used : " + json.dumps(tft_spatula_full_item_name_dict_ordered) + "\n")
 
 # Summary of player 
-f = open(user_input_summonerName_server_filename, "r")
+f = open(user_input_summonername_server_filename, "r")
 contents = f.readlines()
 f.close()
 
@@ -584,7 +583,7 @@ if (used_spatula_items == True):
 
 
 
-f = open(user_input_summonerName_server_filename, "w")
+f = open(user_input_summonername_server_filename, "w")
 contents = "".join(contents)
 f.write(contents)
 f.close()

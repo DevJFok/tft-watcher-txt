@@ -1,19 +1,19 @@
 from riotwatcher import LolWatcher, ApiError
 
 # golbal variables
-api_key = 'RGAPI-f10ecff0-28c0-4855-95f3-2a724f9b7305'
+api_key = 'enter-your-api-key'
 my_lol_region = 'na1'
 my_match_history_count = 10
 
 # Assume valid Summoner Name
-user_input_summonerName = input("Enter Summoner Name: ")
-user_input_summonerName_filename = user_input_summonerName + '_lol_file.txt'
+user_input_summonername = input("Enter Summoner Name: ")
+user_input_summonername_filename = user_input_summonername + '_lol_file.txt'
 # Assume valid integer > 0
 user_input_match_history_count = int(input("Enter Match History count: "))
 
 #LoL global variables
 lol_watcher = LolWatcher(api_key)
-my_lol = lol_watcher.summoner.by_name(my_lol_region, user_input_summonerName)
+my_lol = lol_watcher.summoner.by_name(my_lol_region, user_input_summonername)
 my_lol_rank = lol_watcher.league.by_summoner(my_lol_region, my_lol['id'])
 my_lol_matches = lol_watcher.match.matchlist_by_account(my_lol_region, my_lol['accountId'])
 
@@ -26,7 +26,7 @@ my_lol_win_percentage = "Win Percentage: " + str(round((my_lol_dict["wins"]/(my_
 
 
 
-with open(user_input_summonerName_filename, 'w') as lol_file:
+with open(user_input_summonername_filename, 'w') as lol_file:
     lol_file.write(my_lol_name + "\n")
     lol_file.write(my_lol_rank + "\n")
     lol_file.write(my_lol_win_percentage + "\n")
